@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\lberg\OneDrive\SCU EUROPE 2015\RB2DEMOAPP\CS\obj\ARM\Release\ilc\intermediate\ILTransformed\SCU2015LeeDemo.metadata"
+/reflectionMetadataAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\lberg\OneDrive\SCU EUROPE 2015\RB2DEMOAPP\CS\obj\ARM\Release\ilc\intermediate\ILTransformed\SCU2015LeeDemo.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\lberg\OneDrive\SCU EUROPE 2015\RB2DEMOAPP\CS\obj\ARM\Release\ilc\intermediate\ILTransformed\SCU2015LeeDemo.ilexe"
+/out "C:\Users\lberg\OneDrive\SCU EUROPE 2015\RB2DEMOAPP\CS\obj\ARM\Release\ilc\intermediate\MDIL\SCU2015LeeDemo.mdilexe"

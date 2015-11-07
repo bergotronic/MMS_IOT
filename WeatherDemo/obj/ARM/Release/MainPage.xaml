@@ -1,0 +1,87 @@
+﻿<!--
+    Copyright(c) Microsoft Open Technologies, Inc. All rights reserved.
+    The MIT License(MIT)
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files(the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and / or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions :
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+-->
+
+
+
+<Page
+    x:Class="SCU2015LeeDemo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PushButton"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="-0,0,0,0">
+        <StackPanel Margin="0,0,-0,-0" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="275"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500"/>
+                    <ColumnDefinition Width="500"/>
+                </Grid.ColumnDefinitions>
+
+                <Image x:ConnectionId='1' x:Name="image" HorizontalAlignment="Left" Height="254" Margin="10,0,0,0" VerticalAlignment="Top" Width="348" Source="Assets/sculogo.png" Grid.Row="0" Grid.Column="0" />
+                <TextBlock x:ConnectionId='2' x:Name="scuheaderBlock" HorizontalAlignment="Left" Margin="10,225,0,-32" TextWrapping="Wrap" Text="SCU Europe Iot Demo" VerticalAlignment="Top" Width="348" Height="61" FontSize="26.667"  Grid.Row="0" Grid.Column="0"/>
+                <TextBlock x:ConnectionId='3' x:Name="textBlockTime" TextWrapping="Wrap" Text="TextBlock" Grid.Column="1" FontSize="50"  Grid.Row="0" />
+
+
+
+                <TextBlock x:ConnectionId='4' x:Name="SoundHeader" Text="Sound Monitor" Margin="0,0,0,0" TextAlignment="Center" FontSize="26.667"  Grid.Column="0" Grid.Row="1" />
+                <Image x:ConnectionId='5' x:Name="ImgSoundType" Height="100" Source="Assets/cricketTrans.png" Margin="10,50" Grid.Column="0" Grid.Row="1"  />
+
+                <Ellipse x:ConnectionId='6' x:Name="ledEllipse" Opacity="0" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="10"  Grid.Column="0" Grid.Row="1" />
+
+                <TextBox x:ConnectionId='7' x:Name="textBoxlog" TextWrapping="Wrap" Text=" vv" HorizontalAlignment="Center" VerticalAlignment="Center" Height="216" Margin="359,0,322,0" Width="343" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" Foreground="White" Background="Black" ScrollViewer.HorizontalScrollBarVisibility="Hidden" ScrollViewer.VerticalScrollBarVisibility="Auto"   Grid.Column="0" Grid.Row="1" />
+
+                <TextBlock x:ConnectionId='8' x:Name="WeatherHeader" Text="Weather Monitor" Margin="0,0,0,0" TextAlignment="Center" FontSize="26.667"  Grid.Column="1" Grid.Row="1" />
+
+                <TextBlock x:ConnectionId='9' x:Name="LabelTemp" Text="Temp:" Margin="40" TextAlignment="Center" FontSize="26.667"  Grid.Column="1" Grid.Row="1" />
+                <TextBlock x:ConnectionId='10' x:Name="LabelHum" Text="Humidity: " Margin="80,80,80,0" TextAlignment="Center" FontSize="26.667"  Grid.Column="1" Grid.Row="1" Height="40" VerticalAlignment="Top" />
+
+                <TextBlock x:ConnectionId='11' x:Name="LabelStream" Text="Azure Connectivity " Margin="10,10,180,54" TextAlignment="Center" FontSize="26.667"  Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" />
+                <TextBlock x:ConnectionId='12' x:Name="LabelAzureStatus" Text="Transmitting" Margin="10,52,180,13" TextAlignment="Center" FontSize="20" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" />
+                <Image x:ConnectionId='13' x:Name="image1" Height="100" Source="Assets/Stream Analytics.png" Margin="0,0,80,0" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Right" />
+
+
+
+            </Grid>
+
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,279,0,0" Width="1024">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="500"/>
+                    <ColumnDefinition Width="500"/>
+                </Grid.ColumnDefinitions>
+
+
+
+            </Grid>
+        </StackPanel>
+
+    </Grid>
+</Page>
+
